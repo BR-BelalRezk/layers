@@ -14,7 +14,8 @@ export default function FAQs() {
           <Tag>Faqs</Tag>
         </div>
         <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">
-          Questions? We've got <span className="text-lime-400">answers</span>
+          Questions? We&apos;ve got{" "}
+          <span className="text-lime-400">answers</span>
         </h2>
         <ul className="mt-12 flex flex-col gap-6 max-w-xl mx-auto">
           {faqs.map((item, index) => (

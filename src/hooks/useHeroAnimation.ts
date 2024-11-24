@@ -33,7 +33,16 @@ export default function useHeroAnimation() {
         { duration: 0.5, ease: "easeInOut" },
       ],
     ]);
-  }, []);
+  }, [
+    rightDesignAnimate,
+    rightDesignScope,
+    rightPointerAnimate,
+    rightPointerScope,
+    leftDesignAnimate,
+    leftDesignScope,
+    leftPointerAnimate,
+    leftPointerScope,
+  ]);
 
   return {
     leftDesignScope,

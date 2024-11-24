@@ -11,7 +11,7 @@ export default function CTA() {
       { x: "-50%" },
       { duration: 30, ease: "linear", repeat: Infinity }
     );
-  }, []);
+  }, [animate, scope]);
   useEffect(() => {
     if (animation.current) {
       if (hover) {
